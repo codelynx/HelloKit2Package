@@ -5,6 +5,8 @@ import Foundation
 @_exported import HelloKit2
 import Swift
 import _Concurrency
-@_hasMissingDesignatedInitializers open class SwiftyHello {
+open class SwiftyHello {
+  public init()
+  public func hello()
   @objc deinit
 }
