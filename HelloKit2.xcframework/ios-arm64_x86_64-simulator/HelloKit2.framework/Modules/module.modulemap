@@ -1,0 +1,11 @@
+framework module HelloKit2 {
+  umbrella header "HelloKit2.h"
+
+  export *
+  module * { export * }
+}
+
+module HelloKit2.Swift {
+    header "HelloKit2-Swift.h"
+    requires objc
+}
