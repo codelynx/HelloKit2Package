@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "HelloKit2Package",
+    name: "HelloKit2",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "HelloKit2Package",
-            targets: ["HelloKit2Package"]),
+            name: "HelloKit2",
+            targets: ["HelloKit2"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
